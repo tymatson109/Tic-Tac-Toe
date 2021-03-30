@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+}
+
+/* Header  */
+
+.header {
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1%;
+}
+
+.header__image {
+    max-width: 8%;
+}
+
+.header__modal {
+    display: flex;
+    flex-direction: column;
+}
+
+.header__modalHeader {
+    text-align: center;
+}
+
+.header__modal input {
+    margin-bottom: 10px;
+}
+
+/* footer */
+
+.footer {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    border-top: 1px solid lightgray;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* gameboard */
+
+.gameboard {
+    align-items: center;
+}
+
+.gameboard__container {
+    background: #eee;
+    display: grid;
+    width: 300px;
+    height: 300px;
+    grid-template-columns: auto auto auto;
+    margin: auto;
+    margin-top: 8%;
+}
+
+.gameboard__cube {
+    width: 98px;
+    height: 98px;
+    border: 1px solid black;
+}
+
+.gameboard__button {
+    width: 98px;
+    height: 98px;
+}
+
+.gameboard__piece {
+    text-align: center;
+    line-height: 100px;
+    height: 100px;
+}
+
+/* app */
+
+.app__game {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.app__reset {
+    margin-left: 45%;
+    margin-right: 45%;
+    text-align: center;
+}
+
